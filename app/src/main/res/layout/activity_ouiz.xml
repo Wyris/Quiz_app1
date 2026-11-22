@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".QuizActivity">
+
+    <!-- Счетчик вопросов -->
+    <TextView
+        android:id="@+id/tvQuestionCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вопрос 1 из 5"
+        android:textColor="#757575"
+        android:textSize="16sp" />
+
+    <!-- Текст вопроса -->
+    <TextView
+        android:id="@+id/tvQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="Какой газ преобладает в атмосфере Земли?"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Кнопка ответа 1 -->
+    <Button
+        android:id="@+id/btnAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Кислород" />
+
+    <!-- Кнопка ответа 2 -->
+    <Button
+        android:id="@+id/btnAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Азот" />
+
+    <!-- Кнопка ответа 3 -->
+    <Button
+        android:id="@+id/btnAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Углекислый газ" />
+
+    <!-- Кнопка ответа 4 -->
+    <Button
+        android:id="@+id/btnAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Водород" />
+
+</LinearLayout>
